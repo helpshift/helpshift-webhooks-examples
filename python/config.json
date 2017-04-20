@@ -1,0 +1,22 @@
+{
+  "slack": {
+    "webhook_url": "<YOUR WEBHOOK URL>"
+  },
+  "jira": {
+    "endpoint": "https://<SITENAME>.atlassian.net/rest/api/2/issue/",
+    "username": "<USERNAME>",
+    "password": "<PASSWORD>",
+    "project_key": "<PROJECTKEY>",
+    "helpshift_ticket_url_key": "<CUSTOM FIELD 1>",
+    "username_key": "<CUSTOM FIELD 2>"
+  },
+  "helpshift": {
+    "dashboard_url": "https://<DOMAIN>.helpshift.com/admin/issue/",
+    "api_endpoint": "https://api.helpshift.com/v1/<DOMAIN>/issues/",
+    "api_key": "<YOUR API KEY>"
+  },
+  "app": {
+    "host": "0.0.0.0",
+    "port": 4567
+  }
+}
