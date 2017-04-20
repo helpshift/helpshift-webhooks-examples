@@ -5,3 +5,4 @@ webhook_code_samples.egg-info/
 *__pycache__/
 target/
 *.pyc
+*.DS_Store

@@ -1,0 +1,28 @@
+{
+    "event_id":"4f8dc833-cd79-4617-80b2-6ff88835a91d",
+    "event_type":"update_issue",
+    "event_timestamp":1491906205857,
+    "domain":"test",
+    "app_id":"test_app_20170403115601623-67573ab93159e4f",
+    "webhook":
+    {
+        "title":"update issue",
+        "id":"test_webhook_20170404111332950-0fe339b9a7dfb8b"
+    },
+    "data":
+    {
+        "id":106,
+        "author_name":"John Doe",
+        "author_email":"jdoe@example.org",
+        "domain":"test",
+        "created_at":1491906103975,
+        "updates":
+        {
+            "state_data":
+            {
+                "state":"new_for_agent",
+                "changed_at":1491906203306
+            }
+        }
+    }
+}

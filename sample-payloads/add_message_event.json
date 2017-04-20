@@ -1,0 +1,48 @@
+{
+    "event_id":"e38028a4-a1e1-443c-8c96-6a58ff16f2e7",
+    "event_type":"update_issue",
+    "event_timestamp":1491907605851,
+    "domain":"test",
+    "app_id":"test_app_20170403115434932-1b1fb83f0a9481d",
+    "webhook":
+    {
+        "title":"update issue",
+        "id":"test_webhook_20170404111332950-0fe339b9a7dfb8b"
+    },
+    "data":
+    {
+        "id":82,
+        "author_name":"John Doe",
+        "author_email":"jdoe@example.org",
+        "domain":"test",
+        "created_at":1491553138887,
+        "updates":
+        {
+            "messages":[
+                {
+                    "id":"test_message_20170411104640697-6baa1732e92b8be",
+                    "body":"message with attachment",
+                    "created_at":1491907600697,
+                    "author":
+                    {
+                        "name":"Agent",
+                        "id":"test_profile_20170403115432636-d9ddb2e229e0c12",
+                        "emails":["agent@test.helpshift.com"]
+                    },
+                    "attachment":
+                    {
+                        "url":"https://d3dgrayswxa3nn.cloudfront.net/test/ca674e9515b8f20a8dcfa14450cc406dee1f591f.png",
+                        "size":116552,
+                        "file_name":"Screen Shot 2017-02-22 at 2.16.00 PM.png",
+                        "content_type":"image/png"
+                    }
+                }
+            ],
+            "state_data":
+            {
+                "state":"agent_replied",
+                "changed_at":1491907600697
+            }
+        }
+    }
+}
