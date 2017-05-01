@@ -43,6 +43,6 @@ This sample code is Python 2 and Python 3 compatible.
    <a href="../sample-payloads/" target="_blank"> here </a>
   ````
   cd ../sample-payloads
-  curl -X POST --data @create_issue_events.json http://localhost:4567/create_issue
-  curl -X POST --data @update_status_event.json http://localhost:4567/update_issue
+  curl -H "Content-Type: application/json" -X POST --data @create_issue_events.json http://localhost:4567/create_issue
+  curl -H "Content-Type: application/json" -X POST --data @update_status_event.json http://localhost:4567/update_issue
   ````
