@@ -1,20 +1,20 @@
 {
-    "app_id": "test_app_20170403115601623-67573ab93159e4f",
+    "app_id": "test_app_20170403115434932-1b1fb83f0a9481d",
     "data": {
         "author_email": "doe@example.org",
         "author_name": "John Doe",
-        "created_at": 1495781129260,
+        "created_at": 1495783655005,
         "domain": "test",
-        "id": 402,
+        "id": 403,
         "updates": {
-            "feedback": {
-                "rating": 5
-            }
+            "tags": [
+                "foo"
+            ]
         }
     },
     "domain": "test",
-    "event_id": "39b30e4e-7694-4216-b6b6-17e93555c181",
-    "event_timestamp": 1495783250685,
+    "event_id": "1bfcb4e5-561b-48eb-b8f3-60e7521d9d39",
+    "event_timestamp": 1495786404941,
     "event_type": "update_issue",
     "webhook": {
         "id": "test_webhook_20170526062150944-fb76672bf5d3ad1",

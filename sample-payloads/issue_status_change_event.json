@@ -7,14 +7,15 @@
         "domain": "test",
         "id": 402,
         "updates": {
-            "feedback": {
-                "rating": 5
+            "state_data": {
+                "changed_at": 1495782461765,
+                "state": "resolved"
             }
         }
     },
     "domain": "test",
-    "event_id": "39b30e4e-7694-4216-b6b6-17e93555c181",
-    "event_timestamp": 1495783250685,
+    "event_id": "cff4a67f-5f7a-477d-a6c5-f5d19be13a9b",
+    "event_timestamp": 1495782467008,
     "event_type": "update_issue",
     "webhook": {
         "id": "test_webhook_20170526062150944-fb76672bf5d3ad1",

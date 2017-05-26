@@ -7,14 +7,15 @@
         "domain": "test",
         "id": 402,
         "updates": {
-            "feedback": {
-                "rating": 5
-            }
+            "tags": [
+                "foo",
+                "bar"
+            ]
         }
     },
     "domain": "test",
-    "event_id": "39b30e4e-7694-4216-b6b6-17e93555c181",
-    "event_timestamp": 1495783250685,
+    "event_id": "1e4391bd-cccc-474d-bfa6-fb8c08c075b9",
+    "event_timestamp": 1495781229524,
     "event_type": "update_issue",
     "webhook": {
         "id": "test_webhook_20170526062150944-fb76672bf5d3ad1",
