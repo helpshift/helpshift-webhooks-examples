@@ -15,8 +15,9 @@ public class IssueUpdate {
     final List<String> tags;
 
     public IssueUpdate(Issue issue, Map<String, Object> data) {
-        /* When an issue is updated, the webhook data will contain either a state_data map, which contains details
-         * of issue status updates, or it will contain a tags map, which is for any changes to the issue tags.
+        /* For an issue update, we are considering following example scenarios -
+        * The webhook data will contain a state_data map, which contains details of issue status updates, or
+        * it will contain a tags map, which is for any changes to the issue tags.
          */
         if (data.containsKey("state_data")) {
             Map<String, Object> state_data = (Map<String, Object>)data.get("state_data");

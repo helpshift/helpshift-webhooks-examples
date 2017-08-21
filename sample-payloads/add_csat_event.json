@@ -6,6 +6,10 @@
         "created_at": 1495781129260,
         "domain": "test",
         "id": 402,
+        "assignee": {
+            "id":"test_profile_20170403115432636-d9ddb2e229e0c12",
+            "name":"Agent"
+        },
         "updates": {
             "feedback": {
                 "rating": 5

@@ -16,6 +16,7 @@ public class Issue {
     final String title;
     final IssueMeta issueMeta;
     final List<Message> messages = new ArrayList<>();
+    final Assignee assignee;
 
     public int getId() {
         return id;
@@ -64,6 +65,8 @@ public class Issue {
         this.messages.add(message);
     }
 
+    public Assignee getAssignee() { return assignee; }
+
     public Issue(Map<String, Object> data) {
         id = (Integer)data.get("id");
         createdAt = Instant.ofEpochMilli((Long)data.get("created_at"));
@@ -96,6 +99,10 @@ public class Issue {
                 Map<String, Object> messageData = (Map<String, Object>) messageMap;
                 this.messages.add(new Message(messageData));
             }
+        }
+
+        if (data.containsKey("assignee")) {
+            assignee = new Assignee ((Map<String, Object>)data.get("assignee"));
         }
     }
 }
