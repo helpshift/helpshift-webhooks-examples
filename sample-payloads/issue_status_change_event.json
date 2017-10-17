@@ -10,6 +10,14 @@
             "id":"test_profile_20170403115432636-d9ddb2e229e0c12",
             "name":"Agent"
         },
+        "custom_issue_fields": {
+            "summary": { "type": "singleline", "val": "please set me to the given value" },
+            "vip_user": { "type": "checkbox", "val": true },
+            "random_number": { "type": "number", "val": 1 },
+            "description": { "type": "multiline", "val": "hey whats up" },
+            "priority": { "type": "dropdown", "val": "p1" },
+            "dob": { "type": "date", "val": "2017-09-25" }
+        },
         "updates": {
             "state_data": {
                 "changed_at": 1495782461765,

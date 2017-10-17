@@ -49,7 +49,15 @@
             "changed_at": 1495781129271,
             "state": "new"
         },
-        "title": "Create issue test"
+        "title": "Create issue test",
+        "custom_issue_fields": {
+            "summary": { "type": "singleline", "val": "please set me to the given value" },
+            "vip_user": { "type": "checkbox", "val": true },
+            "random_number": { "type": "number", "val": 1 },
+            "description": { "type": "multiline", "val": "hey whats up" },
+            "priority": { "type": "dropdown", "val": "p1" },
+            "dob": { "type": "date", "val": "2017-09-25" }
+        }
     },
     "domain": "test",
     "event_id": "4ead486e-75dc-4f80-a6d0-f34df5c523e2",
