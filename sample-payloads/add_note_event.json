@@ -1,0 +1,33 @@
+{
+    "app_id": "test_app_20170403115601623-67573ab93159e4f",
+    "data": {
+        "author_email": "doe@example.org",
+        "author_name": "John Doe",
+        "created_at": 1495781129260,
+        "domain": "test",
+        "id": 402,
+        "assignee": {
+            "id":"test_profile_20170403115432636-d9ddb2e229e0c12",
+            "name":"Agent"
+        },
+        "custom_issue_fields": {
+            "vip_user": { "type": "checkbox", "val": true },
+            "dob": { "type": "date", "val": "2017-09-25" }
+        },
+        "updates": {
+            "notes": [{"created_at": 1532174546154,
+                       "author": {"id": "test_profile_20180424072215358-30bbec04306d637",
+                                  "name": "example1",
+                                  "emails": ["example1@example1.com"]},
+                       "body": "Need resolution on priority"}]
+        }
+    },
+    "domain": "test",
+    "event_id": "cff4a67f-5f7a-477d-a6c5-f5d19be13a9b",
+    "event_timestamp": 1495782467008,
+    "event_type": "update_issue",
+    "webhook": {
+        "id": "test_webhook_20170526062150944-fb76672bf5d3ad1",
+        "title": "update issue"
+    }
+}
