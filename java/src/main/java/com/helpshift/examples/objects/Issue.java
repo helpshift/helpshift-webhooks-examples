@@ -103,6 +103,8 @@ public class Issue {
 
         if (data.containsKey("assignee")) {
             assignee = new Assignee ((Map<String, Object>)data.get("assignee"));
+        } else {
+            assignee = null;
         }
     }
 }
