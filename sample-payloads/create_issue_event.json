@@ -22,7 +22,8 @@
                 },
                 "body": "<strong>Create issue test</strong><br/><br/>Create issue for webhook sample payload",
                 "created_at": 1495781129260,
-                "id": "test_message_20170526064529264-7e7211c0966b107"
+                "id": "test_message_20170526064529264-7e7211c0966b107",
+                "origin": "end-user"
             }
         ],
         "meta": {

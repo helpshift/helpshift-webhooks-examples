@@ -36,7 +36,8 @@
                     },
                     "body": "add message with attachment",
                     "created_at": 1495782347081,
-                    "id": "test_message_20170526070547081-3b45cfa976ecc85"
+                    "id": "test_message_20170526070547081-3b45cfa976ecc85",
+                    "origin": "end-user"
                 }
             ]
         }
