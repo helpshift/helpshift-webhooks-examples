@@ -27,6 +27,20 @@
                         "size": 9401,
                         "url": "https://d3dgray2wxa3nn.cloudfront.net/pardeep/2111ddd4dcf9805a1b4a9e31f505fbb9d7beb2cc.jpg"
                     },
+                    "attachments": [
+                        {
+                            "content_type": "image/jpeg",
+                            "file_name": "img_01.jpg",
+                            "size": 9401,
+                            "url": "https://d3dgray2wxa3nn.cloudfront.net/pardeep/2111ddd4dcf9805a1b4a9e31f505fbb9d7beb2cc.jpg"
+                        },
+                        {
+                            "content_type": "image/jpeg",
+                            "file_name": "img_02.jpg",
+                            "size": 9401,
+                            "url": "https://d3dgray2wxa3nn.cloudfront.net/pardeep/2111ddd4dcf9805a1b4a9e31f505fbb9d7beb2cc.jpg"
+                        }
+                    ],
                     "author": {
                         "emails": [
                             "jdoe@example.org"
